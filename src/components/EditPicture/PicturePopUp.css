@@ -1,0 +1,57 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.popup {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 25vh;
+    margin-top: -45%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.popup > h3 {
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.button-container {
+    display: flex;
+    margin-left: 5%;
+    gap: 2.5rem;
+}
+
+.function-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+
+.function-container > h4 {
+    margin-top: 5%;
+    color: gray;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.picture {
+    border: 1px solid gray;
+    border-radius: 5rem;
+    padding: 10px;
+}
+
+.exitBtn {
+    margin-top: -4%;
+    margin-left: 80%;
+    color: gray;
+    font-weight: 100;
+}

@@ -1,0 +1,34 @@
+.edit-popup {
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    height: 40vh;
+    margin-top: -80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px 5px 0px 0px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.content-container > h3 {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.cta {
+    margin-top: 4%;
+    margin-left: 60%;
+    display: flex;
+    gap: 2rem;
+}
+
+.ctaBtn {
+    color: gray;
+    font-size: 14px;
+    font-weight: 100;
+} 

@@ -1,4 +1,5 @@
 .App {
+  max-height: 100vh;
   overflow: hidden;
   font-family: 'Poppins', sans-serif;
   background-color: rgb(180, 180, 180);
@@ -117,7 +118,7 @@
   content: "";
   width: 240px;
   height: 1px;
-  background-color: #3F87A8;;
+  background-color: #3F87A8;
 }
 
 /* Logout Button */
